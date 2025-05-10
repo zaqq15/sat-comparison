@@ -1,6 +1,6 @@
 # SAT Solver Implementations
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 This repository contains several SAT (Boolean Satisfiability Problem) solver implementations using different algorithms. Each implementation is designed to evaluate and compare the performance of various SAT solving techniques on CNF (Conjunctive Normal Form) formulas.
 
@@ -99,13 +99,7 @@ Memory used: 4.32 MB (delta), 28.76 MB total
 - **DPLL**: Can handle moderate-sized instances (typically < 100 variables, depending on structure)
 - **Modern Solvers**: Can solve instances with thousands of variables, depending on structure
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
