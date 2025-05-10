@@ -40,25 +40,25 @@ pip install python-sat
 ### Pure Resolution Solver
 
 ```bash
-python pure_resolution.py --input path/to/cnf_file.cnf [--timeout 120] [--verbose]
+python resolution_solver.py --input path/to/cnf_file.cnf [--timeout 120] [--verbose]
 ```
 
 ### Davis-Putnam Solver
 
 ```bash
-python davis_putnam.py --input path/to/cnf_file.cnf [--timeout 120] [--verbose]
+python dp_solver.py --input path/to/cnf_file.cnf [--timeout 120] [--verbose]
 ```
 
 ### DPLL Solver
 
 ```bash
-python dpll.py --input path/to/cnf_file.cnf [--timeout 120] [--verbose]
+python dpll_solver.py --input path/to/cnf_file.cnf [--timeout 120] [--verbose]
 ```
 
 ### PySAT Benchmarking Tool
 
 ```bash
-python pysat_benchmark.py -i path/to/cnf_file.cnf [--solvers g3,g4,cd,m22] [--minimal]
+python cdcl_solver.py --input path/to/cnf_file.cnf [--solvers g3,g4,cd,m22] [--minimal]
 ```
 
 ## Algorithm Comparison
