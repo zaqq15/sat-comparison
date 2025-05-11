@@ -25,7 +25,7 @@ This repository contains several SAT (Boolean Satisfiability Problem) solver imp
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sat-solvers.git
+git clone https://github.com/zaqq15/sat-comparison.git
 cd sat-solvers
 
 # Install dependencies
